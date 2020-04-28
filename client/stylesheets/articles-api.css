@@ -30,7 +30,7 @@ body {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-template-rows: repeat(2, 100px);
+  grid-template-rows: repeat(2, auto);
 }
 
 .c {
@@ -47,12 +47,8 @@ button {
   border: 1px solid #cccccc;
 }
 
-input[type="text"] {
-  font-size: 18px;
-}
-
 #lead-photo {
-  width: 150px;
+  width: 200px;
   margin: auto;
   padding: 1em;
   border-radius: 50px;
